@@ -1,4 +1,8 @@
 
+.card{
+    min-width: 20vw;
+}
+
 .buy{
     transition: .7s;
     opacity: 0;
@@ -18,4 +22,11 @@
 .buy{
    background-color: black;
    color: white;
+   font-size: 1.5vw;
+}
+.cardList{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
