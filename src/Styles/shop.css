@@ -1,0 +1,44 @@
+.header {
+    
+    display: inline-block;
+    width: 100vw;
+    height: 15vh;
+    /* background: rgb(0, 0, 0); */
+    text-align: center;
+    position: relative;
+
+}
+.header_img{
+    transition: 4s;
+    filter: grayscale(100%);
+}
+.header_img:hover{
+    filter: blur(3px)
+}
+
+
+.header_txt{
+    color: rgb(0, 0, 0);
+}
+
+.header .header_txt{
+    position: absolute;
+    top: 90%;
+    left: 40%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 1.7vw;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 0px;
+    text-decoration: none;
+    width: 20%;
+    text-align: center;
+    vertical-align: middle;
+}
+.cards{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

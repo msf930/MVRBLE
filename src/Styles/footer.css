@@ -1,0 +1,21 @@
+.main-footer{
+    color: white;
+    background-color: black;
+    padding: 2em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    
+}
+ul{
+    list-style: none;
+}
+
+

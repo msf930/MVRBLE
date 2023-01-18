@@ -1,0 +1,21 @@
+
+.buy{
+    transition: .7s;
+    opacity: 0;
+}
+.card:hover .buy{
+    opacity: 1;
+}
+.cardImg{
+    width: 20vw;
+    filter: grayscale(100%);
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.buy{
+   background-color: black;
+   color: white;
+}
