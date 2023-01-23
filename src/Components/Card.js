@@ -8,7 +8,7 @@ const Card = ({name, price, image}) => {
                 <img className='cardImg' alt='marble' src = {image}/>
                 <div className='text'>  
                     <h2>{name}</h2>
-                    <h3>{price}</h3>
+                    <h3>${price}</h3>
                 </div>
                 <div className='buy'>
                     <h1> BUY </h1>

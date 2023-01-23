@@ -1,0 +1,75 @@
+
+.headerImg{
+    
+    width: 100vw;
+    filter: grayscale(100%);
+}
+.header .headerTxt{
+    position: absolute;
+    top: 90%;
+    left: 40%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 1.7vw;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 0px;
+    text-decoration: none;
+    width: 20%;
+    text-align: center;
+    vertical-align: middle;
+}
+.inputContainer{
+    position: relative;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.nameContainer{
+    display: flex;
+    align-content: space-between;
+    margin: 1vw;
+}
+.first{
+    width: 24vw;
+    border-radius: 0px;
+    padding: 12px 20px;
+    margin : 1vw;
+}
+
+.last{
+    width: 24vw;
+    border-radius: 0px;
+    padding: 12px 20px;
+    margin: 1vw;
+}
+.email{
+    width: 50vw;
+    border-radius: 0px;
+    padding: 12px 20px;
+    margin: 1vw;
+}
+.phone{
+    margin: 1vw;
+    width: 50vw;
+    border-radius: 0px;
+    padding: 12px 20px;
+}
+.message{
+    margin: 1vw;
+    width: 50vw;
+    height: 20vh;
+    border-radius: 0px;
+    padding: 12px 20px;
+    resize: none;
+}
+.submit{
+    width: 50vw;
+    border-radius: 0px;
+    color: white;
+    background-color: black;
+    padding: 12px 20px;
+    
+}
